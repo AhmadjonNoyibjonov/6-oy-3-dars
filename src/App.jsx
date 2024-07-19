@@ -1,23 +1,15 @@
 import "./App.css";
-import { useState } from "react";
+import Counter from "./components/Counter/counter";
+import MediaPost from "./components/MediaPost/post";
+import TabSelector from "./components/TabSelector/tap";
 
 function App() {
-  const [counterState, setCounterState] = useState(0);
-
-  function Click() {
-    setCounterState(counterState + 1);
-  }
-
-  function lClick() {
-    setCounterState(counterState - 1);
-  }
-
   return (
-    <>
-      <button onClick={Click}>count+</button>
-      <button onClick={lClick}>count-</button>
-      <h1>{counterState}</h1>
-    </>
+    <div className="wrapper container">
+      <Counter />
+      <MediaPost />
+      <TabSelector />
+    </div>
   );
 }
 

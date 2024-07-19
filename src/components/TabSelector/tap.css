@@ -1,0 +1,16 @@
+.tab {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: olivedrab;
+  border-radius: 12px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.tab div {
+  color: bisque;
+  display: flex;
+  gap: 15px;
+  margin: auto;
+}

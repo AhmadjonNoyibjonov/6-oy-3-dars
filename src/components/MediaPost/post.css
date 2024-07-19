@@ -1,0 +1,22 @@
+.post {
+  width: 300px;
+  background-color: antiquewhite;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.post p {
+  display: flex;
+  align-items: center;
+}
+
+.post div {
+  display: flex;
+  gap: 10px;
+}
