@@ -1,0 +1,35 @@
+.img-gallery {
+  display: flex;
+  margin: auto;
+  margin-left: -350px;
+}
+
+.img-gallery img {
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 10px;
+  transition: transform 0.5s;
+}
+
+.img-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 90%;
+  max-height: 90%;
+  width: 500px;
+  border-radius: 12px;
+}
